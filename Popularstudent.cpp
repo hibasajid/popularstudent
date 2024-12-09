@@ -16,15 +16,15 @@ int main(){
         getline(ss,st[i],',');  
         for (int j=0;j<5;j++){
             getline(ss,f[i][j],',');  
-        }
+    }
     }
     for (int i=0;i<SIZE;i++){
         for (int j=0;j<SIZE;j++){
             for (int k=0;k<5;k++){
                 if (f[j][k]==st[i]){
                     fC[i]++;  
-                }
-            }
+        }
+        }
         }
     }
     int max=0;
